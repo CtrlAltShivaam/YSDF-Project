@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .icons {
+    background: linear-gradient(to right, #148ecd, #031289);
+    height: 2.5rem;
+    text-align: right;
+}
+
+header .icons i {
+    height: .5rem;
+    padding-top: 10px;
+}
+
+header .icons a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding-right: 1.1rem;
+    padding-top: 13px;
+    color: #ffffff;
+}
+
+header .icons a:hover {
+    font-weight: bolder;
+    color: #b0e0e6;
+}
+
+header .logo {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+    background: linear-gradient(to top, rgba(123, 198, 204, 0.4), rgba(255, 255, 255, 1));
+}
+
+header .logo .image img{
+    height: 8rem;
+    width: 8rem;
+}
+
+header .logo .text {
+    text-align: center;
+}
+
+header .logo .text .eng {
+    font-size: 1.8rem;
+    color: #094dc1;
+}
+
+header .logo .text .hindi {
+    font-size: 1.5rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #0583d5;
+}
+
+header .logo .text .multi, header .logo .text .multi .multitext {
+    color: #484c51;
+    font-size: 1.2rem;
+}
+
+.navbar {
+    background-color: #252525;
+}
+
+.navbar-brand img {
+    height: 0;
+}
+
+
+/* Media Queries */
+@media (max-width: 991px) {
+
+    .logo .image {
+        display: none;
+    }
+
+
+    .logo .text {
+        justify-content: center;
+    }
+
+    .navbar-brand img {
+        height: 2rem;
+    }
+
+}
+
+@media (max-width: 870px) {
+    
+    .icons .franchise, .icons .pay {
+        display: none;
+    }
+
+}
