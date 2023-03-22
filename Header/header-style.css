@@ -16,7 +16,7 @@
 
 header .icons {
     background: linear-gradient(to right, #148ecd, #031289);
-    height: 2.5rem;
+    height: 2.2rem;
     text-align: right;
 }
 
@@ -26,10 +26,9 @@ header .icons i {
 }
 
 header .icons a {
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-decoration: none;
-    padding-right: 1.1rem;
-    padding-top: 13px;
+    padding-right: 1.7rem;
     color: #ffffff;
 }
 
@@ -40,8 +39,8 @@ header .icons a:hover {
 
 header .logo {
     display: flex;
-    justify-content: space-evenly;
-    padding: 1.5rem;
+    justify-content: space-around;
+    padding: 1.2rem;
     background: linear-gradient(to top, rgba(123, 198, 204, 0.4), rgba(255, 255, 255, 1));
 }
 
