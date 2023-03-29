@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0; 
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none; border:none;
+    text-decoration: none;
+    
+    place-items: center;
+    
+    
+}
+body{
+    background: #ffffff;
+   
+}
+
+
+
+.back{
+    background-image: url("images/imac-1500_750.jpg");
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   width: 100%;
+   height: 20px;
+   justify-content: center;
+    
+    padding: 100px;
+    background-image: 100px;
+    
+    position: relative;
+    
+}
+.back h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: #000000;
+    padding-top: 60px;
+}
+
+.hey{
+    text-align: center;
+    margin-top: 40px;
+    
+    
+    
+}
+.hey p{
+  color: #080808;
+ 
+}
+.hey i{
+  color: #f53636;
+}
+.para{
+    margin-top: 10px;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    color: grey;
+    font-family: monospace;
+    font-size: 120%;
+}
+.para h1{
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #246dda
+}
+.para span{
+  color: #4d4d4d
+}
+.icon{
+  
+  
+  display: table;
+  color: #299fd1;
+  
+  
+  
+  
+  margin: 0 auto ;
+  box-sizing: border-box;
+ align-items: center;
+ 
+}
+.row {
+  
+  display: flex;
+  margin: 10px 0;
+  padding: 100px
+  
+  
+}
+.column i{
+  align-items: center;
+  padding-bottom: 10px;
+}
+.column p{
+  color: #7a7a7a;
+  font-family: sans-serif;
+  padding-top: 30px;
+}
+.column{
+  display: table-cell;
+  padding: 10px;
+  text-align: center;
+  width: 400px;
+  float: left;
+  font-weight: 200;
+  font-size: 20px;
+
+  
+}
+.sec{
+    margin: 20px;
+    justify-content: center;
+}
+
+
+
+.accordion {
+  width: 95%;
+  max-width: 80%;
+  margin: 2rem auto;
+  
+    
+}
+.accordion-item {
+  background-color: #fff;
+  color: #111;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+}
+.accordion .accordion-item .accordion-item-body .accordion-item-body-content img{
+    
+    
+    float: right;
+    height: 300px;
+    max-width: 600px;
+    vertical-align: middle;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    margin-left: 20%;
+    position: static;
+
+    
+    
+}
+
+
+.accordion-item-header {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.accordion-item-header::after {
+  content: "\002B";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+  
+}
+.accordion-item-header.active::after {
+  content: "\2212";
+  
+}
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion-item-body-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+  text-align: justify;
+  padding: 20px 80px 20px 50px;
+  font-family: sans-serif;
+  color: #4E4E4E;
+
+}
+.accordion .accordion-item .accordion-item-body .accordion-item-body-content{
+  font-size: large;
+  text-overflow: initial;
+  font-weight: 400;
+  display: block;
+}
+.accordion .accordion-item .accordion-item-body .accordion-item-body-content ul{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-display: flex;
+}
+.accordion .accordion-item .accordion-item-body .accordion-item-body-content p{
+  padding: 10px;
+}
+.accordion .accordion-item .accordion-item-body .accordion-item-body-content li{
+  padding: 10px;
+}
+
+  
+@media(max-width:767px) {
+  html {
+    font-size: 14px;
+  }
+}
