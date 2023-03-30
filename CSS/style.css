@@ -73,11 +73,59 @@ header .logo .text .multi .multitext {
 
 .navbar {
     background-color: #252525;
+    color: white;
 }
-
+.navbar a{
+    color: white;
+}
 .navbar-brand img {
     height: 0;
 }
+.dropdown-item{
+    background-color: black;
+    color: white;
+}
+
+/* Login Popup*/
+.loginPopup h2 {
+    color: #4054B2;
+    padding: 15px;
+    text-align: center;
+    font-size: 19px;
+  }
+
+  .loginPopup img {
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+
+  .openBtn {
+    display: flex;
+    justify-content: left;
+  }
+
+  .loginPopup {
+    position: relative;
+    text-align: center;
+    width: 180%;
+  }
+
+  .formPopup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, 5%);
+    border: 4px solid #4054B2;
+    z-index: 9;
+  }
+
+  .formContainer {
+    max-width: 400px;
+    height: 480px;
+    padding: 35px;
+    background-color: #fff;
+  }
 
 
 /* Media Queries */
@@ -203,28 +251,9 @@ h6,
     z-index: 99;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    font-family: 'Oswald', sans-serif;
-    padding: 30px 15px;
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: var(--light);
-    outline: none;
-    transition: .5s;
-}
-
-.sticky-top.navbar-dark .navbar-nav .nav-link {
-    padding: 20px 15px;
-}
-
-.navbar-dark .navbar-nav .nav-link:hover,
-.navbar-dark .navbar-nav .nav-link.active {
-    color: var(--primary);
-}
 
 @media (max-width: 991.98px) {
-    .navbar-dark .navbar-nav .nav-link {
+     .navbar-nav .nav-link {
         padding: 10px 0;
     }
 }
@@ -523,6 +552,7 @@ h6,
     background-image: linear-gradient(to right,#05155d ,#05155d ,rgb(23, 191, 241));
     border-bottom: rgba(255, 255, 0, 0.705) solid;
 }
+
 .need-help button{
     display: inline-block;
     position: relative;
@@ -633,6 +663,10 @@ h6,
     margin: 10px;
     margin-bottom: 10px;
 }
+#myCarousel {
+    margin-top: 20px; /* adjust the value as needed */
+    height: 40%;
+  }
 
 
 /*
@@ -660,6 +694,76 @@ h6,
     color:#00A0C6; 
     text-decoration:none;  
 }
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    border: 1px solid #4f4f4f;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    font-size: 19px;
+    color: black;
+    z-index: 1;
+   }
+   
+   .button:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%) scaleY(1) scaleX(1.25);
+        -ms-transform: translateX(-50%) scaleY(1) scaleX(1.25);
+            transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    display: block;
+    -webkit-transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+   }
+   
+   .button:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    -webkit-transform: translateX(-50%) scaleY(1) scaleX(1.45);
+        -ms-transform: translateX(-50%) scaleY(1) scaleX(1.45);
+            transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #39bda7;
+    border-radius: 50%;
+    display: block;
+    -webkit-transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+   }
+   
+   .button:hover {
+    color: #ffffff;
+    border: 1px solid #39bda7;
+   }
+   
+   .button:hover:before {
+    top: -35%;
+    background-color: #39bda7;
+    -webkit-transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+        -ms-transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+            transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+   }
+   
+   .button:hover:after {
+    top: -45%;
+    background-color: #39bda7;
+    -webkit-transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+        -ms-transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+            transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+   }
 .footer .btn.btn-social {
     margin-right: 5px;
     width: 35px;

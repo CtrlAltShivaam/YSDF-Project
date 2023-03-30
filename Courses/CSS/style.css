@@ -21,7 +21,7 @@ body{
 
 
 .back{
-    background-image: url("images/imac-1500_750.jpg");
+    background-image: url("assets/imac-1500_750.jpg")
    background-size: cover;
    background-position: center;
    display: flex;

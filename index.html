@@ -23,7 +23,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
+    
+    </head>
 
 <body>
     <!-- Header + Navbar -->
@@ -32,7 +33,25 @@
         <div class="icons">
             <a href="#" class="franchise"><i class="fas fa-handshake"></i> Franchise</a>
             <a href="#" class="pay"><i class="fas fa-indian-rupee-sign"></i> Pay Now</a>
-            <a href="#"><i class="fas fa-user"></i> Login</a>
+            <a class="openButton" href="#" onclick="openForm()"><i class="fas fa-user"></i> Login</a>
+            <!-- Popups -->
+            <div class="loginPopup">
+                <div class="formPopup" id="popupForm">
+                    <form action="/action_page.php" class="formContainer">
+                        <img src="assets/main-logo.png" alt="" width="120" height="">
+                        <button type="button" class="btn-close" aria-label="Close"></button>
+
+                        <h2>YSDF ACADEMY LOGIN </h2>
+
+                        <div class="d-grid gap-2 col-6 mx-auto mt-3">
+                            <button class="btn btn-primary" type="button">ATC LOGIN</button>
+                            <button class="btn btn-primary" type="button">TRAINER LOGIN</button>
+                            <button class="btn btn-primary" type="button">STUDENTLOGIN</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
         </div>
 
         <!--Header Logo-->
@@ -48,7 +67,7 @@
         </div>
 
         <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="assets/nav-logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -59,7 +78,7 @@
                 <div class="collapse navbar-collapse flex" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -67,18 +86,18 @@
                                 About Us
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">About YSDF</a></li>
-                                <li><a class="dropdown-item" href="#">Mission & Vission</a></li>
-                                <li><a class="dropdown-item" href="#">Legal & Recognitions</a></li>
+                                <li><a class="dropdown-item" href="About-Us/about-us.html">About YSDF</a></li>
+                                <li><a class="dropdown-item" href="About-Us/mission&vission.html">Mission & Vission</a></li>
+                                <li><a class="dropdown-item" href="About-Us/legal&Recognitions.html">Legal & Recognitions</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            <a class="nav-link dropdown-toggle" href="Courses/courses.html" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Courses
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Certificate Courses</a></li>
+                                <li><a class="dropdown-item" href="Courses/courses.html">Certificate Courses</a></li>
                                 <li><a class="dropdown-item" href="#">Diploma Courses</a></li>
                                 <li><a class="dropdown-item" href="#">Vocational Skill Courses</a></li>
                                 <li><a class="dropdown-item" href="#">Spoken English</a></li>
@@ -137,7 +156,7 @@
                             <a class="nav-link" href="#">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact US</a>
+                            <a class="nav-link" href="Contact-Us/Contact.html">Contact US</a>
                     </ul>
                 </div>
             </div>
@@ -181,12 +200,12 @@
                     <h1 class="display-6 text-uppercase">Learn less Understand more</h1>
                 </div>
                 <div class="row gx-5">
-                    <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 400px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100" src="assets/1st.jpg" style="object-fit: cover;">
+                    <div class="col-lg-4 mb-5 mb-lg-0" style="min-height: 300px;">
+                        <div class="position-relative">
+                            <img class="w-100 h-100" src="assets/1st.jpg" style="object-fit: cover;">
                         </div>
                     </div>
-                    <div class="col-lg-6 pb-5">
+                    <div class="col-lg-8 pb-5">
                         <h4 class="mb-3">Youth Skill Development Foundation</h4>
                         <p class="mb-15" id="about_section">YSDF is an autonomous self government organization since
                             2014. We have been duly registered with the govt. of India in the year 2018 and award with
@@ -708,65 +727,65 @@
         <!-- Back to Top -->
         <a href="#" class="btn btn-primary border-inner py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
     </section>
-    
+
     <!--Footer -->
     <footer>
         <div class="slide">
             <div class="slider">
-            <div class="slide-img">
-                <img src="assets/2.png" alt="">
-            </div>
-            <div class="slide-img">
-                <img src="assets/4.png" alt="">
-            </div>
-            <div class="slide-img">
-                <img src="assets/corona.png" alt="">
-            </div>
-            <div class="slide-img">
-                <img src="assets/enterp.png" alt="">
-            </div>
-            <div class="slide-img">
-                <img src="assets/essci.png" alt="">
-            </div>
-            <div class="slide-img">
-                <img src="assets/human-rights.png" alt="">
-            </div>
-            <div class="slide-img">
-                <img src="assets/iso-1.png" alt="">
-            </div>
-            <div class="slide-img">
-                <img src="assets/iso-removebg-preview.png" alt="">
-            </div>
-            <div class="slide-img">
-                <img src="assets/ISO.png" alt="">
-            </div>
-            <div class="slide-img">
-                <img src="assets/micro-admin.png" alt="">
-            </div>
-            <div class="slide-img">
-                <img src="assets/NCS.jpg" alt="">
-            </div>
-            <div class="slide-img">
-                <img src="assets/micro-eng.png" alt="">
-            </div>
-            <div class="slide-img">
-                <img src="assets/NITI-Aayog-logo.png" alt="">
-            </div>
-            <div class="slide-img">
-                <img src="assets/rsdc.png" alt="">
-            </div>
-            <div class="slide-img">
-                <img src="assets/tree.png" alt="">
-            </div>
-            <div class="slide-img">
-                <img src="assets/women.png" alt="">
-            </div>
-            <div class="slide-img">
-                <img src="assets/ISO.png" alt="">
-            </div>
-            <div class="slide-img">
-                <img src="assets/micro-admin.png" alt="">
-            </div>
+                <div class="slide-img">
+                    <img src="assets/2.png" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="assets/4.png" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="assets/corona.png" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="assets/enterp.png" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="assets/essci.png" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="assets/human-rights.png" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="assets/iso-1.png" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="assets/iso-removebg-preview.png" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="assets/ISO.png" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="assets/micro-admin.png" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="assets/NCS.jpg" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="assets/micro-eng.png" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="assets/NITI-Aayog-logo.png" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="assets/rsdc.png" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="assets/tree.png" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="assets/women.png" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="assets/ISO.png" alt="">
+                </div>
+                <div class="slide-img">
+                    <img src="assets/micro-admin.png" alt="">
+                </div>
             </div>
         </div>
 
@@ -774,10 +793,12 @@
             <div class="HELP">
                 <div class="first-half ">
                     <h2>Need Help?</h2>
-                </div>      
+                </div>
                 <div class="second-half">
-                    <button class="button Need-help-wa" type="button" href="https://wa.me/+919474463651" data-text="Now!"><span><i class="fa-brands fa-square-whatsapp"></i>&nbspWhatsApp</span></button>
-                    <button class="button Need-help-call" type="button" href="tel:+919088583466" data-text="Now!"><span><i class="fa-solid fa-phone-volume"></i>&nbspCall</span></button>
+                    <button class="button Need-help-wa" type="button" href="https://wa.me/+919474463651"
+                        data-text="Now!"><span><i class="fa-brands fa-square-whatsapp"></i>&nbspWhatsApp</span></button>
+                    <button class="button Need-help-call" type="button" href="tel:+919088583466"
+                        data-text="Now!"><span><i class="fa-solid fa-phone-volume"></i>&nbspCall</span></button>
                 </div>
             </div>
         </section>
@@ -790,17 +811,20 @@
             <hr style="flex: 1; border: none; border-top: 2px solid #ccc; margin: 0 10px;">
         </div>
         <!-- footer starts here -->
-        
+
         <div class="container-fluid text-light footer wow fadeIn" data-wow-delay="0.1s">
             <div class="container pb-5">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-4">
                         <div class="bg-primary rounded p-4">
-                            <a href="index.html"><h2 class="text-white text-uppercase mb-3">Youth Skill Development Foundation</h2></a>
+                            <a href="index.html">
+                                <h2 class="text-white text-uppercase mb-3">Youth Skill Development Foundation</h2>
+                            </a>
                             <button class="Franchise-button" href="" role="button">
-                                Apply for Franchise 
+                                Apply for Franchise
                             </button>
-                            <div style="flex-direction: left;" data-id:"504faeb" data-element_type="widget" data-widget_type="">
+                            <div style="flex-direction: left;" data-id:"504faeb" data-element_type="widget"
+                                data-widget_type="">
                                 <div class="elementor-widget-container">
                                     <h5>Visitors Number</h5>
                                     <ul>
@@ -809,26 +833,33 @@
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-dc33edc elementor-widget__width-auto elementor-widget elementor-widget-html"
-                            data-id="dc33edc" data-element_type="widget" data-widget_type="html.default">
-                            <div class="elementor-widget-container">
-                                <a href="https://www.dmca.com/Protection/Status.aspx?ID=96b2ddb2-0174-46a6-aa19-b4c2dce09ed3&amp;refurl=https://ysdf.in/"
-                                    title="DMCA.com Protection Status" class="dmca-badge"> <img
-                                        src="https://images.dmca.com/Badges/dmca-badge-w150-5x1-07.png?ID=96b2ddb2-0174-46a6-aa19-b4c2dce09ed3"
-                                        alt="DMCA.com Protection Status"></a>
-                                <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+                                data-id="dc33edc" data-element_type="widget" data-widget_type="html.default">
+                                <div class="elementor-widget-container">
+                                    <a href="https://www.dmca.com/Protection/Status.aspx?ID=96b2ddb2-0174-46a6-aa19-b4c2dce09ed3&amp;refurl=https://ysdf.in/"
+                                        title="DMCA.com Protection Status" class="dmca-badge"> <img
+                                            src="https://images.dmca.com/Badges/dmca-badge-w150-5x1-07.png?ID=96b2ddb2-0174-46a6-aa19-b4c2dce09ed3"
+                                            alt="DMCA.com Protection Status"></a>
+                                    <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+                                </div>
                             </div>
-                        </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <h6 class="section-title text-start text-primary text-uppercase mb-4">Corporate Address</h6>
                         <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Office: Salap, Howrah, Kol- 711409</p>
-                        <a href="tel:9088583466"><p class="mb-2"><i class="fa fa-phone-alt me-3"></i>90885 83466</p></a>
-                        <a href="https://wa.me/+917278057151"><p class="mb-2"><i class="fab fa-whatsapp me-3"></i>72780 57151</p></a>
-                        <a href="mailto:info@ysdf.in"><p class="mb-2"><i class="far fa-envelope me-3"></i>info@ysdf.in</p></a>
+                        <a href="tel:9088583466">
+                            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>90885 83466</p>
+                        </a>
+                        <a href="https://wa.me/+917278057151">
+                            <p class="mb-2"><i class="fab fa-whatsapp me-3"></i>72780 57151</p>
+                        </a>
+                        <a href="mailto:info@ysdf.in">
+                            <p class="mb-2"><i class="far fa-envelope me-3"></i>info@ysdf.in</p>
+                        </a>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href="http://fb.com/ysdfindia"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="http://fb.com/ysdfindia"><i
+                                    class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
@@ -855,9 +886,9 @@
             </div>
             <div class="container">
                 <div class="copyright">
-                        <div class=" text-center ">
-                            &copy; <a class="border-bottom" href="#">2014-2023 All rights reserved | YSDF                        
-                        </div>
+                    <div class=" text-center ">
+                        &copy; <a class="border-bottom" href="#">2014-2023 All rights reserved | YSDF
+                    </div>
                 </div>
             </div>
         </div>
