@@ -152,6 +152,42 @@ body{
     
     
 }
+#firstheader:hover{
+  color: white;
+  word-spacing: 8px;
+  background: cornflowerblue;
+}
+#secondheader:hover{
+  color: white;
+  word-spacing: 8px;
+  background: rgb(172, 98, 251);
+}
+#thirdheader:hover{
+  color: white;
+  word-spacing: 8px;
+  background: orangered;
+}
+#fourthheader:hover{
+  color: white;
+  word-spacing: 8px;
+  background: rgb(113, 113, 113);
+}
+
+/*part of background color*/
+
+#firstbox{
+background-color: rgb(214, 228, 255);
+}
+#secondbox{
+background-color:rgb(233, 213, 255);
+}
+#thirdbox{
+background-color: rgb(255, 222, 211);
+}
+#fourthbox{
+background-color: rgb(207, 207, 207);
+}
+
 
 
 .accordion-item-header {
