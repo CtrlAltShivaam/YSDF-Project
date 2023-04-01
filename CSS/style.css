@@ -75,15 +75,21 @@ header .logo .text .multi .multitext {
     background-color: #252525;
     color: white;
 }
-.navbar a{
-    color: white;
-}
+
 .navbar-brand img {
     height: 0;
 }
-.dropdown-item{
-    background-color: black;
-    color: white;
+
+.dropdown ul {
+    background-color: #212529;
+}
+
+.dropdown ul .dropdown-item {
+    color: #ffffff;
+}
+
+.dropdown ul .dropdown-item:hover {
+    color: #212529;
 }
 
 /* Login Popup*/
