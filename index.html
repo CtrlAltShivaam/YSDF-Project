@@ -33,9 +33,9 @@
         <div class="icons">
             <a href="#" class="franchise"><i class="fas fa-handshake"></i> Franchise</a>
             <a href="#" class="pay"><i class="fas fa-indian-rupee-sign"></i> Pay Now</a>
-            <a class="openButton" href="#" onclick="openForm()"><i class="fas fa-user"></i> Login</a>
+            <a class="openButton" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-user"></i> Login</a>
             <!-- Popups -->
-            <div class="loginPopup">
+            <!-- <div class="loginPopup">
                 <div class="formPopup" id="popupForm">
                     <form action="/action_page.php" class="formContainer">
                         <img src="assets/main-logo.png" alt="" width="120" height="">
@@ -51,7 +51,30 @@
 
                     </form>
                 </div>
-            </div>
+            </div> -->
+
+            <div class="loginPopup modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+            
+                    <img src="assets/main-logo.png" alt="logo" class="img-center">
+            
+                    <h2>
+                      YSDF ACADEMY LOGIN
+                    <h2>
+                    <div class="d-grid gap-2 col-6 mx-auto mt-3">
+                        <button type="button" class="btn btn-primary"> &nbsp;&nbsp;&nbsp;ATC LOGIN&nbsp&nbsp;&nbsp;</button><br>
+                        <button type="button" class="btn btn-primary">TRAINER LOGIN</button><br>
+                      <button type="button" class="btn btn-primary">STUDENT LOGIN</button><br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
         </div>
 
         <!--Header Logo-->
