@@ -836,3 +836,20 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+/* Make photo smaller */
+.container-fluid .position-relative.h-100 img {
+    max-height: 300px;
+}
+
+/* Move list to right */
+.container-fluid .row.gx-5 {
+    justify-content: flex-end;
+}
+
+/* Reduce list item font size */
+.container-fluid .inline-list li h4 {
+    font-size: 1rem;
+}
+#Hello{
+    margin-left: -240px;
+}
