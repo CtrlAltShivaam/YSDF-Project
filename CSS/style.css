@@ -275,7 +275,9 @@ h6,
     background: url(../img/hero.jpg) top right no-repeat;
     background-size: cover;
 }
-
+.main-page i{
+    color: #031289;
+}
 .btn-play {
     position: relative;
     display: block;
