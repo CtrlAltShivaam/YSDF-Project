@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YSDF - Header</title>
+  <title>YSDF - Diploma Courses</title>
   <link rel="stylesheet" href="CSS/style.css">
 
   <!-- Google Web Fonts -->
@@ -26,6 +26,170 @@
 </head>
 
 <body>
+
+  
+  <!-- Header + Navbar -->
+  <header>
+    <!--Header Icons-->
+    <div class="icons">
+      <a href="#" class="franchise"><i class="fas fa-handshake"></i> Franchise</a>
+      <a href="#" class="pay"><i class="fas fa-indian-rupee-sign"></i> Pay Now</a>
+      <a class="openButton" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-user"></i>
+        Login</a>
+      <!-- Popups -->
+      <!-- <div class="loginPopup">
+          <div class="formPopup" id="popupForm">
+              <form action="/action_page.php" class="formContainer">
+                  <img src="assets/main-logo.png" alt="" width="120" height="">
+                  <button type="button" class="btn-close" aria-label="Close"></button>
+
+                  <h2>YSDF ACADEMY LOGIN </h2>
+
+                  <div class="d-grid gap-2 col-6 mx-auto mt-3">
+                      <button class="btn btn-primary" type="button">ATC LOGIN</button>
+                      <button class="btn btn-primary" type="button">TRAINER LOGIN</button>
+                      <button class="btn btn-primary" type="button">STUDENTLOGIN</button>
+                  </div>
+
+              </form>
+          </div>
+      </div> -->
+
+      <div class="loginPopup modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content modal-content-upd">
+            <div class="modal-header">
+
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <img src="../assets/main-logo.png" alt="logo" class="img-center">
+
+            <h2>
+              YSDF ACADEMY LOGIN
+              <h2>
+                <div class="d-grid gap-2 col-6 mx-auto mt-3">
+                  <button type="button" class="btn btn-primary"> &nbsp;&nbsp;&nbsp;ATC
+                    LOGIN&nbsp&nbsp;&nbsp;</button><br>
+                  <button type="button" class="btn btn-primary">TRAINER LOGIN</button><br>
+                  <button type="button" class="btn btn-primary">STUDENT LOGIN</button><br>
+                </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--Header Logo-->
+    <div class="logo">
+      <div class="image">
+        <a href="#"><img src="../assets/main-logo.png" alt="Logo"></a>
+      </div>
+      <div class="text">
+        <h3 class="eng">Youth Skill Development Foundation</h3>
+        <h3 class="hindi">यूथ स्किल डेवलपमेंट फाउंडेशन</h3>
+        <h3 class="multi">Recognized By: <span class="multitext"></span></h3>
+      </div>
+    </div>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="../assets/nav-logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                About Us
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="../About-Us/about-us.html">About YSDF</a></li>
+                <li><a class="dropdown-item" href="../About-Us/mission&vission.html">Mission & Vission</a></li>
+                <li><a class="dropdown-item" href="../About-Us/legal&Recognitions.html">Legal & Recognitions</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Courses
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item " href="../Courses/certificate-courses.html">Certificate Courses</a>
+                </li>
+                <li><a class="dropdown-item active" href="../Courses/diploma-course.html">Diploma Courses</a></li>
+                <li><a class="dropdown-item" href="#">Vocational Skill Courses</a></li>
+                <li><a class="dropdown-item" href="#">Spoken English</a></li>
+                <li><a class="dropdown-item" href="#">School Courses</a></li>
+                <li><a class="dropdown-item" href="#">Abacus Skill</a></li>
+                <li><a class="dropdown-item" href="#">Government & Sponsor</a></li>
+                <li><a class="dropdown-item" href="#">Online Courses</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Student
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Student Enquiry</a></li>
+                <li><a class="dropdown-item" href="#">Admission Process</a></li>
+                <li><a class="dropdown-item" href="#">Verification</a></li>
+                <li><a class="dropdown-item" href="#">Student Login</a></li>
+                <li><a class="dropdown-item" href="#">Online Mock Test</a></li>
+                <li><a class="dropdown-item" href="#">Final Examination</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Training
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Computer Fundamentals</a></li>
+                <li><a class="dropdown-item" href="#">Microsoft Office</a></li>
+                <li><a class="dropdown-item" href="#">Technical Pro</a></li>
+                <li><a class="dropdown-item" href="#">Global Studies</a></li>
+                <li><a class="dropdown-item" href="#">Competitive Exams</a></li>
+                <li><a class="dropdown-item" href="#">Interview Skills</a></li>
+                <li><a class="dropdown-item" href="#">Technologies</a></li>
+                <li><a class="dropdown-item" href="#">Webmaster</a></li>
+                <li><a class="dropdown-item" href="#">Hacking & Virus Thread</a></li>
+                <li><a class="dropdown-item" href="#">Tips & Tricks</a></li>
+                <li><a class="dropdown-item" href="#">Govt</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Business
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">YSDF Affiliation</a></li>
+                <li><a class="dropdown-item" href="#">Apply Online</a></li>
+                <li><a class="dropdown-item" href="#">Center Login</a></li>
+                <li><a class="dropdown-item" href="#">Authorized Centers</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="../Contact-Us/Contact.html">Contact US</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
   <section class="diploma-courses">
     <div class="main">
       <div class="back">
@@ -1670,7 +1834,186 @@
 
     </div>
   </section>
-  <script src="core.js"></script>
+  <!--Footer -->
+  <footer>
+    <div class="slide">
+      <div class="slider">
+        <div class="slide-img">
+          <img src="assets/2.png" alt="">
+        </div>
+        <div class="slide-img">
+          <img src="../assets/4.png" alt="">
+        </div>
+        <div class="slide-img">
+          <img src="../assets/corona.png" alt="">
+        </div>
+        <div class="slide-img">
+          <img src="../assets/enterp.png" alt="">
+        </div>
+        <div class="slide-img">
+          <img src="../assets/essci.png" alt="">
+        </div>
+        <div class="slide-img">
+          <img src="../assets/human-rights.png" alt="">
+        </div>
+        <div class="slide-img">
+          <img src="../assets/iso-1.png" alt="">
+        </div>
+        <div class="slide-img">
+          <img src="../assets/iso-removebg-preview.png" alt="">
+        </div>
+        <div class="slide-img">
+          <img src="../assets/ISO.png" alt="">
+        </div>
+        <div class="slide-img">
+          <img src="../assets/micro-admin.png" alt="">
+        </div>
+        <div class="slide-img">
+          <img src="../assets/NCS.jpg" alt="">
+        </div>
+        <div class="slide-img">
+          <img src="../assets/micro-eng.png" alt="">
+        </div>
+        <div class="slide-img">
+          <img src="../assets/NITI-Aayog-logo.png" alt="">
+        </div>
+        <div class="slide-img">
+          <img src="../assets/rsdc.png" alt="">
+        </div>
+        <div class="slide-img">
+          <img src="../assets/tree.png" alt="">
+        </div>
+        <div class="slide-img">
+          <img src="../assets/women.png" alt="">
+        </div>
+        <div class="slide-img">
+          <img src="../assets/ISO.png" alt="">
+        </div>
+        <div class="slide-img">
+          <img src="../assets/micro-admin.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <section class="need-help">
+      <div class="HELP">
+        <div class="first-half ">
+          <h2>Need Help?</h2>
+        </div>
+        <div class="second-half">
+          <button class="button Need-help-wa" type="button" href="https://wa.me/+919474463651" data-text="Now!"><span><i
+                class="fa-brands fa-square-whatsapp"></i>&nbspWhatsApp</span></button>
+          <button class="button Need-help-call" type="button" href="tel:+919088583466" data-text="Now!"><span><i
+                class="fa-solid fa-phone-volume"></i>&nbspCall</span></button>
+        </div>
+      </div>
+    </section>
+    <!--Divider-->
+    <div class="elementor-divider">
+      <hr style="flex: 1; border: none; border-top: 2px solid white; margin: 0 10px;">
+      <div class="elementor-icon" style="padding: 2px;">
+        <i aria-hidden="true" class="fas fa-wave-square"></i>
+      </div>
+      <hr style="flex: 1; border: none; border-top: 2px solid #ccc; margin: 0 10px;">
+    </div>
+    <!-- footer starts here -->
+
+    <div class="container-fluid text-light footer wow fadeIn" data-wow-delay="0.1s">
+      <div class="container pb-5">
+        <div class="row g-5">
+          <div class="col-md-6 col-lg-4">
+            <div class="bg-primary rounded p-4">
+              <a href="index.html">
+                <h2 class="text-white text-uppercase mb-3">Youth Skill Development Foundation</h2>
+              </a>
+              <button class="Franchise-button" href="" role="button">
+                Apply for Franchise
+              </button>
+              <div style="flex-direction: left;" data-id:"504faeb" data-element_type="widget" data-widget_type="">
+                <div class="elementor-widget-container">
+                  <h5>Visitors Number</h5>
+                  <ul>
+                    <li>1,625,956 </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="elementor-element elementor-element-dc33edc elementor-widget__width-auto elementor-widget elementor-widget-html"
+                data-id="dc33edc" data-element_type="widget" data-widget_type="html.default">
+                <div class="elementor-widget-container">
+                  <a href="https://www.dmca.com/Protection/Status.aspx?ID=96b2ddb2-0174-46a6-aa19-b4c2dce09ed3&amp;refurl=https://ysdf.in/"
+                    title="DMCA.com Protection Status" class="dmca-badge"> <img
+                      src="https://images.dmca.com/Badges/dmca-badge-w150-5x1-07.png?ID=96b2ddb2-0174-46a6-aa19-b4c2dce09ed3"
+                      alt="DMCA.com Protection Status"></a>
+                  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h6 class="section-title text-start text-primary text-uppercase mb-4">Corporate Address</h6>
+            <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Office: Salap, Howrah, Kol- 711409</p>
+            <a href="tel:9088583466">
+              <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>90885 83466</p>
+            </a>
+            <a href="https://wa.me/+917278057151">
+              <p class="mb-2"><i class="fab fa-whatsapp me-3"></i>72780 57151</p>
+            </a>
+            <a href="mailto:info@ysdf.in">
+              <p class="mb-2"><i class="far fa-envelope me-3"></i>info@ysdf.in</p>
+            </a>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-outline-light btn-social" href="http://fb.com/ysdfindia"><i
+                  class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+              <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12">
+            <div class="row gy-5 g-4">
+              <div class="col-md-6">
+                <h6 class="section-title text-start text-primary text-uppercase mb-4">Company</h6>
+                <a class="btn btn-link" href="">About Us</a>
+                <a class="btn btn-link" href="">Contact Us</a>
+                <a class="btn btn-link" href="">Privacy Policy</a>
+                <a class="btn btn-link" href="">Terms & Condition</a>
+                <a class="btn btn-link" href="">Support</a>
+              </div>
+              <div class="col-md-6">
+                <h6 class="section-title text-start text-primary text-uppercase mb-4">LogIn</h6>
+                <a class="btn btn-link" href="">ATC Login</a>
+                <a class="btn btn-link" href="">Trainer Login</a>
+                <a class="btn btn-link" href="">Student Login</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class=" text-center ">
+            &copy; <a class="border-bottom" href="#">2014-2023 All rights reserved | YSDF
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="JS/script.js"></script>
+  <script src="../Scripts/script.js"></script>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
 </body>
 
 </html>

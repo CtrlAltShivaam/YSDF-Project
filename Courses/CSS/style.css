@@ -21,7 +21,7 @@ body{
 
 
 .back{
-    background-image: url("../assets/imac-1500_750.jpg")
+    background-image: url("../assets/imac-1500_750.jpg");
    background-size: cover;
    background-position: center;
    display: flex;
@@ -88,7 +88,7 @@ body{
  align-items: center;
  
 }
-.row {
+.para .row {
   
   display: flex;
   margin: 10px 0;
