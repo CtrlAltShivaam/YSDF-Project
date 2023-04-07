@@ -875,3 +875,146 @@ h6,
     background-color: black;
     opacity: 0.5
  }
+
+ .bg1 {
+    position: relative;
+    z-index: 1;
+}
+ .bg1 .bg01{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-image: url("https://getillustrations.com/packs/plastic-illustrations-scene-builder-pack/elements/_1x/objects%20_%20blob,%20smudge,%20shape,%20art,%20design_md.png"); */
+    background-image: url("https://th.bing.com/th/id/OIP.OCbwV_QUPojKM3ez2PJImQHaHn?pid=ImgDet&rs=1");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 0.12;
+    width: 100%;
+    height: 100%;
+ }
+ .bg1 .bg11{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("https://bytesplex.com/img/background.png");
+    /* background-image: url("https://smartcheckin.us/wp-content/uploads/2020/12/4-768x768.png"); */
+    background-repeat: no-repeat;
+    background-position: 80% 20%;
+    opacity: 0.09;
+    width: 100%;
+    height: 100%;
+ }
+ .bg1 .bg12{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    background-image: url("https://th.bing.com/th/id/OIP.u20I2IP2KpzZ3vSMve0QxAHaF7?pid=ImgDet&w=856&h=686&rs=1");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 0.09;
+    width: 100%;
+    height: 100%;
+    background-size: 30%;
+ }
+ .bg1 .bg13{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5efe915a21b9401bc2f437f0/1595476227622-A3D09QSX25U6Q082120R/ke17ZwdGBToddI8pDm48kCLCmvcFbobfoAfw11RnF9J7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1URL7UUZLgiFYBlUzImtLvw8hitBp8Jva9ptg1OlS0x2TByJpHluJsqJoN79A0VawVw/landscape-background4.jpg?format=300w");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+ }
+ .bg1 .bg14{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    background-image: url("https://th.bing.com/th/id/OIP.qK_nD8QSoKxKz3JeniZVIgHaCD?pid=ImgDet&w=2880&h=798&rs=1");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+ }
+ .bg1 .bg16{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    background-image: url("https://smartcheckin.us/wp-content/uploads/2020/12/4-768x768.png"),url("https://bobiseredich.com/images/layerslider/Marketing-1/graph4.png");
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    opacity: 0.09;
+    width: 100%;
+    height: 100%;
+ }
+ .bg1 .bg17{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    background-image:url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2147620385/settings_images/zm08o0OVQHeVbuSVDyvV_1.png");
+    background-repeat: no-repeat;
+    background-position: 100% 60%;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+ }
+
+.sr1{
+    margin-left: 33%;
+}
+.sr0 .sr12{
+    width: 140px;
+     height: 140px;
+    border-radius: 50%;
+}
+
+.cl1{
+    margin-right: 210px;
+    margin-left: 100px;
+}
+.cl2{
+    
+    margin-left: 100px;
+}
+.cl3{
+    margin-right: 190px;
+    margin-left: 100px;
+}
+
+.cl4{
+    margin-left: 120px;
+}
+
+
+
+
+ 
