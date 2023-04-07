@@ -18,7 +18,7 @@
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <!-- Font Awesome + Bootstrap-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -48,24 +48,7 @@
             <a href="#" class="pay"><i class="fas fa-indian-rupee-sign"></i> Pay Now</a>
             <a class="openButton" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-user"></i> Login</a>
             <!-- Popups -->
-            <!-- <div class="loginPopup">
-                <div class="formPopup" id="popupForm">
-                    <form action="/action_page.php" class="formContainer">
-                        <img src="assets/main-logo.png" alt="" width="120" height="">
-                        <button type="button" class="btn-close" aria-label="Close"></button>
-
-                        <h2>YSDF ACADEMY LOGIN </h2>
-
-                        <div class="d-grid gap-2 col-6 mx-auto mt-3">
-                            <button class="btn btn-primary" type="button">ATC LOGIN</button>
-                            <button class="btn btn-primary" type="button">TRAINER LOGIN</button>
-                            <button class="btn btn-primary" type="button">STUDENTLOGIN</button>
-                        </div>
-
-                    </form>
-                </div>
-            </div> -->
-
+            
             <div class="loginPopup modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                   <div class="modal-content modal-content-upd">
@@ -105,7 +88,7 @@
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="assets/nav-logo.png" alt=""></a>
+                <a class="navbar-brand" href="index.html"><img src="assets/nav-logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -117,7 +100,7 @@
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button"
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 About Us
                             </a>
@@ -136,12 +119,12 @@
                                 <li><a class="dropdown-item" href="Courses/courses.html">Courses</a></li>
                                 <li><a class="dropdown-item" href="Courses/certificate-courses.html">Certificate Courses</a></li>
                                 <li><a class="dropdown-item" href="Courses/diploma-course.html">Diploma Courses</a></li>
-                                <li><a class="dropdown-item" href="#">Vocational Skill Courses</a></li>
-                                <li><a class="dropdown-item" href="#">Spoken English</a></li>
-                                <li><a class="dropdown-item" href="#">School Courses</a></li>
-                                <li><a class="dropdown-item" href="#">Abacus Skill</a></li>
-                                <li><a class="dropdown-item" href="#">Government & Sponsor</a></li>
-                                <li><a class="dropdown-item" href="#">Online Courses</a></li>
+                                <li><a class="dropdown-item" href="Courses/courses.html">Vocational Skill Courses</a></li>
+                                <li><a class="dropdown-item" href="Courses/courses.html">Spoken English</a></li>
+                                <li><a class="dropdown-item" href="Courses/courses.html">School Courses</a></li>
+                                <li><a class="dropdown-item" href="Courses/courses.html">Abacus Skill</a></li>
+                                <li><a class="dropdown-item" href="Courses/courses.html">Government & Sponsor</a></li>
+                                <li><a class="dropdown-item" href="Courses/courses.html">Online Courses</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -584,10 +567,10 @@
         <!-- Competitive Preparation -->
 
         <!-- Social responsibility -->
-        <div class="container-fluid about py-5 bg1"style="padding: 50px;">
+        <div class="container-fluid about py-5 bg1"style="padding: 50px; display: none">
             <div class="bg17 "></div>
             <div class="container">
-                <div class="section-title position-relative text-center mx-auto mb-5 pb-3" style="max-width: 600px;">
+                <div class="section-title position-relative text-center mx-auto mb-5 pb-3" style="">
                     <h1 class="display-4 text-uppercase text-secondary">Social Resposnsibility</h1>
                     <h2 class="dispaly-10  font-primary">Educating a person means developing a country </h2>
 
@@ -639,41 +622,12 @@
             </div>
         </div>
 
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <!-- Social responsibility -->
 
 
         <!-- Facts Start -->
         <div class="container-fluid bg-primary bg-img py-5 mb-5 ">
-            <div class="container py-5">
+            <div class="container py-5 text-center">
                 <div class="row gx-5 gy-4">
                     <div class="col-lg-3 col-md-6">
                         <div class="d-flex">
@@ -717,7 +671,7 @@
         <!-- Facts End -->
 
         <!-- Testimonial Start -->
-        <div class="container-fluid py-5">
+        <!-- <div class="container-fluid py-5">
             <div class="container">
                 <div class="section-title position-relative text-center mx-auto mb-5 pb-3" style="max-width: 600px;">
                     <h2 class="text-primary font-primary">Partner with us</h2>
@@ -779,7 +733,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Testimonial End -->
 
 
@@ -787,10 +741,19 @@
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-primary border-inner py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
+        
     </section>
 
     <!--Footer -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="section-title position-relative text-center mx-auto mb-5 pb-3" style="max-width: 600px;">
+    
+                <h1 class="display-4 text-uppercase">YSDF Recognitions</h1>
+                <h2 class="text-primary font-primary">We commited for better future</h2>
+            </div>
+        </div>
+    </div>
     <footer>
         <div class="slide">
             <div class="slider">
@@ -956,22 +919,22 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <script src="Scripts/script.js"></script>
+    <a href="#" class="btn btn-primary border-inner py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
+    
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="JS/script.js"></script>
+  <script src="../Scripts/script.js"></script>
 
-   <!-- JavaScript Libraries -->
-   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-   <script src="lib/easing/easing.min.js"></script>
-   <script src="lib/waypoints/waypoints.min.js"></script>
-   <script src="lib/counterup/counterup.min.js"></script>
-   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-   <!-- Template Javascript -->
-   <script src="js/main.js"></script>
 </body>
 
 </html>
