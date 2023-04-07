@@ -872,5 +872,6 @@ h6,
   
 .carousel-control-next-icon
  {
-    background-color: red;
+    background-color: black;
+    opacity: 0.5
  }
