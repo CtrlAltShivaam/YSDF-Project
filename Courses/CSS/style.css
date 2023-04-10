@@ -160,17 +160,17 @@ body{
 #secondheader:hover{
   color: white;
   word-spacing: 8px;
-  background: rgb(172, 98, 251);
+  background: cornflowerblue;
 }
 #thirdheader:hover{
   color: white;
   word-spacing: 8px;
-  background: orangered;
+  background: cornflowerblue;
 }
 #fourthheader:hover{
   color: white;
   word-spacing: 8px;
-  background: rgb(113, 113, 113);
+  background: cornflowerblue;
 }
 
 /*part of background color*/
@@ -179,13 +179,13 @@ body{
 background-color: rgb(214, 228, 255);
 }
 #secondbox{
-background-color:rgb(233, 213, 255);
+background-color:rgb(214, 228, 255);
 }
 #thirdbox{
-background-color: rgb(255, 222, 211);
+background-color: rgb(214, 228, 255);
 }
 #fourthbox{
-background-color: rgb(207, 207, 207);
+background-color: rgb(214, 228, 255);
 }
 
 
