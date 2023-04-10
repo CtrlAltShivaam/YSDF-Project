@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.enquiry-heading {
+    padding: 1.5rem 8rem;
+}
+
+.enquiry-container {
+    padding: 0 8rem 3rem 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.enquiry-container .left ul li {
+    list-style: none;
+}
+
+.enquiry-container .right {
+    width: 40%;
+}
+
+.list {
+    padding-top: 1rem;
+}
+
+select {
+    height: 3.7rem;
+}
+
+.img{
+    background-image: url("/Student-Enquiry/assets/books.jpg");
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    width: 100%;
+    height: 9rem;
+    justify-content: center;
+    position: relative;
+}
+
+.img h2{
+    text-align: center;
+    font-family: sans-serif;
+    color: #ffffff;
+    padding-top: 40px;
+}
+
+.paragraph{
+    text-align: center;
+}
+
+.paragraph p{
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 991px) {
+    
+    .enquiry-heading, .enquiry-container {
+        padding: 0 10px;
+    }
+
+    .enquiry-container {
+        padding: 0 20px;
+    }
+
+}
+
+@media (max-width: 804px) {
+    
+    .enquiry-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .enquiry-container .right {
+        padding-top: 1rem;
+        width: 70%;
+    }
+
+}
